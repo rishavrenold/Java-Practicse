@@ -34,7 +34,7 @@ public class FindsoFar
         int idx[]=occ(arr,0,x,0);
         for(int ii:idx)
         {
-            System.out.println("The number "+x+" is present in "+ii );
+            System.out.println("The number "+x+" is present in "+ii+1);
         }
         
     }
