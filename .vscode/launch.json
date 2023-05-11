@@ -1,0 +1,252 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Subset78",
+            "request": "launch",
+            "mainClass": "RecursionandBacktracking.Subset78",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "PalindromeCheck",
+            "request": "launch",
+            "mainClass": "RecursionandBacktracking.PalindromeCheck",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "_1DArray.BubbleSort",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "StocksBuyAndSell",
+            "request": "launch",
+            "mainClass": "_1DArray.StocksBuyAndSell",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "TrappingRainWater",
+            "request": "launch",
+            "mainClass": "_1DArray.TrappingRainWater",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "KadanesAlgo",
+            "request": "launch",
+            "mainClass": "_1DArray.KadanesAlgo",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "MaxSubarraySumO3",
+            "request": "launch",
+            "mainClass": "_1DArray.MaxSubarraySumO3",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "Sort0sand1s",
+            "request": "launch",
+            "mainClass": "_1DArray.Sort0sand1s",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "Basics.HelloWorld",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciSeries",
+            "request": "launch",
+            "mainClass": "DP.FibonacciSeries",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "FrogJump",
+            "request": "launch",
+            "mainClass": "DP.FrogJump",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "LongestIncreasingSubsequence",
+            "request": "launch",
+            "mainClass": "DP.LongestIncreasingSubsequence",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "MinimumWindowSubstring",
+            "request": "launch",
+            "mainClass": "HashMapandHeaps.MinimumWindowSubstring",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearchRecc",
+            "request": "launch",
+            "mainClass": "RecursionandBacktracking.BinarySearchRecc",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "CheckSorted",
+            "request": "launch",
+            "mainClass": "RecursionandBacktracking.CheckSorted",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "FindsoFar",
+            "request": "launch",
+            "mainClass": "RecursionandBacktracking.FindsoFar",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "FirstOccurence",
+            "request": "launch",
+            "mainClass": "RecursionandBacktracking.FirstOccurence",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "HouseRobber",
+            "request": "launch",
+            "mainClass": "RecursionandBacktracking.HouseRobber",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "LastOccurence",
+            "request": "launch",
+            "mainClass": "RecursionandBacktracking.LastOccurence",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "MinimumNumberCoins",
+            "request": "launch",
+            "mainClass": "RecursionandBacktracking.MinimumNumberCoins",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "NumberOfRods",
+            "request": "launch",
+            "mainClass": "RecursionandBacktracking.NumberOfRods",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "PermutationBasedonArray",
+            "request": "launch",
+            "mainClass": "RecursionandBacktracking.PermutationBasedonArray",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "StairCasePath",
+            "request": "launch",
+            "mainClass": "RecursionandBacktracking.StairCasePath",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "Subsequence",
+            "request": "launch",
+            "mainClass": "RecursionandBacktracking.Subsequence",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "CheckOccurenceofPalindrome",
+            "request": "launch",
+            "mainClass": "StringPrac.CheckOccurenceofPalindrome",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "RemoveAllDuplicates",
+            "request": "launch",
+            "mainClass": "StringPrac.RemoveAllDuplicates",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "RemoveAllOcc",
+            "request": "launch",
+            "mainClass": "StringPrac.RemoveAllOcc",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "Leetcode977SquaresofSortedArray",
+            "request": "launch",
+            "mainClass": "TwoPointer.Leetcode977SquaresofSortedArray",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "TwoSum",
+            "request": "launch",
+            "mainClass": "TwoPointer.TwoSum",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "ArraySumInterviewBit",
+            "request": "launch",
+            "mainClass": "_1DArray.ArraySumInterviewBit",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "MergeIntervals",
+            "request": "launch",
+            "mainClass": "_1DArray.MergeIntervals",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "SpanOfArray",
+            "request": "launch",
+            "mainClass": "_1DArray.SpanOfArray",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "SumOfTwoArray",
+            "request": "launch",
+            "mainClass": "_1DArray.SumOfTwoArray",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "subset",
+            "request": "launch",
+            "mainClass": "_1DArray.subset",
+            "projectName": "Java Practicse_ac0670c0"
+        }
+    ]
+}
