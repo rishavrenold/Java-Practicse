@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RatInAMaze",
+            "request": "launch",
+            "mainClass": "RecursionandBacktracking.RatInAMaze",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "FindMaxSubArrayWithGivenSum",
+            "request": "launch",
+            "mainClass": "_1DArray.FindMaxSubArrayWithGivenSum",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "SlidingWindow",
+            "request": "launch",
+            "mainClass": "_1DArray.SlidingWindow",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "PermutationOfStrings",
+            "request": "launch",
+            "mainClass": "RecursionandBacktracking.PermutationOfStrings",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
             "name": "SubsequenceWithagivenSum",
             "request": "launch",
             "mainClass": "RecursionandBacktracking.SubsequenceWithagivenSum",
