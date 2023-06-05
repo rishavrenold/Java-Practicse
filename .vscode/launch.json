@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PrintAscendingDescending",
+            "request": "launch",
+            "mainClass": "RecursionandBacktracking.PrintAscendingDescending",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "CheckEvenOrOdd",
+            "request": "launch",
+            "mainClass": "BitManipulation.CheckEvenOrOdd",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "StringCompression",
+            "request": "launch",
+            "mainClass": "StringPrac.StringCompression",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
             "name": "RatInAMaze",
             "request": "launch",
             "mainClass": "RecursionandBacktracking.RatInAMaze",
