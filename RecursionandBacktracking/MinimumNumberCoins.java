@@ -1,4 +1,4 @@
-package RecursionandBacktracking;
+
 import java.util.Scanner;
 //minimum number of coins required
 

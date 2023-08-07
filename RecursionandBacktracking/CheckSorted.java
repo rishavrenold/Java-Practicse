@@ -1,5 +1,3 @@
-package RecursionandBacktracking;
-
 import java.util.Scanner;
 
 public class CheckSorted {

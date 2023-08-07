@@ -1,17 +1,16 @@
-package RecursionandBacktracking;
 import java.util.*;
 
 public class LastOccurence {
 
     static int lastidx;
 
-    public static int firstocc(int arr[], int idx,int digit)
+    public static int lastocc(int arr[], int idx,int digit)
     {
         if(idx==arr.length)
         {
             return -1;
         }
-        lastidx = firstocc(arr, idx+1, digit);
+        lastidx =lastocc(arr, idx+1, digit);
         if(arr[idx]==digit)
         {
             lastidx=Math.max(idx, lastidx);
@@ -31,7 +30,7 @@ public class LastOccurence {
         }
         System.out.println("Enter the element to be found ");
         int x=sc.nextInt();
-        int idx=firstocc(arr,0,x);
+        int idx=lastocc(arr,0,x);
         System.out.println(idx==-1?"Not found":idx+1);
     }
 }

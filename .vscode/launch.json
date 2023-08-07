@@ -6,6 +6,97 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SearchInSortedArray",
+            "request": "launch",
+            "mainClass": "_1DArray.SearchInSortedArray",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "AddNumber",
+            "request": "launch",
+            "mainClass": "AddNumber",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "AddNumbers",
+            "request": "launch",
+            "mainClass": "AddNumbers",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "ReverseString",
+            "request": "launch",
+            "mainClass": "RecursionandBacktracking.ReverseString",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "CoinChangePrac",
+            "request": "launch",
+            "mainClass": "RecursionandBacktracking.CoinChangePrac",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "MinimumNumberToReachSumK",
+            "request": "launch",
+            "mainClass": "RecursionandBacktracking.MinimumNumberToReachSumK",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "IsArraySorted",
+            "request": "launch",
+            "mainClass": "RecursionandBacktracking.IsArraySorted",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "MaximumInArray",
+            "request": "launch",
+            "mainClass": "RecursionandBacktracking.MaximumInArray",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "CoinChange",
+            "request": "launch",
+            "mainClass": "RecursionandBacktracking.CoinChange",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicates",
+            "request": "launch",
+            "mainClass": "_1DArray.RemoveDuplicates",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "NextGreaterElementToRight",
+            "request": "launch",
+            "mainClass": "Stacks.NextGreaterElementToRight",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "BalancedBrackets",
+            "request": "launch",
+            "mainClass": "Stacks.BalancedBrackets",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "ValidParathesis",
+            "request": "launch",
+            "mainClass": "Stacks.ValidParathesis",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
             "name": "PrintAscendingDescending",
             "request": "launch",
             "mainClass": "RecursionandBacktracking.PrintAscendingDescending",

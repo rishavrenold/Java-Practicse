@@ -1,5 +1,3 @@
-package RecursionandBacktracking;
-
 public class PrintAscendingDescending {
 
     public static void  printAsc(int arr[],int idx)

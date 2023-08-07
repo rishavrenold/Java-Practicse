@@ -1,5 +1,3 @@
-package RecursionandBacktracking;
-
 import java.util.Scanner;
 /*
  *the array represent the house with the amount, no adjacent house should be robbed

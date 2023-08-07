@@ -1,4 +1,3 @@
-package RecursionandBacktracking;
 public class MergeSort {
 public static void merge(int arr[],int start,int end)
 {

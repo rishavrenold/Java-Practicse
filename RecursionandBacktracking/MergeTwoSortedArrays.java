@@ -1,5 +1,3 @@
-package RecursionandBacktracking;
-
 public class MergeTwoSortedArrays {
     public static void main(String[] args) {
         int arr1[]={2,6,8,9,11};

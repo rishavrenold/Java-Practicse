@@ -1,4 +1,4 @@
-package RecursionandBacktracking;
+
 import java.util.Scanner;
 
 public class BinarySearchRecc {
