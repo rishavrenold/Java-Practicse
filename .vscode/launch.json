@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MarksOfPCM",
+            "request": "launch",
+            "mainClass": "_1DArray.MarksOfPCM",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "SubarraywithsumeqK",
+            "request": "launch",
+            "mainClass": "_1DArray.SubarraywithsumeqK",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "AbbreviationUsingBacktracking",
+            "request": "launch",
+            "mainClass": "AbbreviationUsingBacktracking",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "RotateArray",
+            "request": "launch",
+            "mainClass": "_1DArray.RotateArray",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
             "name": "SearchInSortedArray",
             "request": "launch",
             "mainClass": "_1DArray.SearchInSortedArray",
