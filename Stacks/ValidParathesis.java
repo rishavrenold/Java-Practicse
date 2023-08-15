@@ -4,35 +4,48 @@ import java.util.Stack;
 
 public class ValidParathesis {
 
-    public static boolean validparan(String str)
-    {
-        Stack<Character> st= new Stack<>();
+    public static boolean isValid(String str) {
+        Stack <Character> st= new Stack<>();
         for(int i=0;i<str.length();i++)
         {
-            char ch=str.charAt(i);
-            if(ch==')' && st.peek()=='(')
+            char ch= str.charAt(i);
+            if(ch=='{' || ch=='[' || ch=='(')
             {
-               return false;
+                st.push(ch);
             }
-            else{
-                if(ch==')')
+            else if(ch=='}')
+            {
+                if(st.size()>0 && st.peek()=='{')
                 {
-                    while(st.peek()!='(')
-                    {
-                        st.pop();
-                    }
                     st.pop();
+                }else{
+                    return false;
                 }
-                else{
-                    st.push(ch);
-                }   
-            }            
+            }
+            else if(ch==']')
+            {
+                if(st.size()>0 && st.peek()=='[')
+                {
+                    st.pop();
+                }else{
+                    return false;
+                }
+            }
+            else if(ch==')')
+            {
+                if(st.size()>0 && st.peek()=='(')
+                {
+                    st.pop();
+                }else{
+                    return false;
+                }
+            }
         }
-        return true;
+        return st.size()>0?false:true;
     }
     public static void main(String[] args) {
         String str="((a+b)*(a-c))";
-        if(validparan(str))
+        if(isValid(str))
         {
             System.out.println("Valid Paranthesis");
         }
