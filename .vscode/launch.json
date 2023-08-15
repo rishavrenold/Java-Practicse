@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GeneratePassword",
+            "request": "launch",
+            "mainClass": "GeneratePassword",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "GenerateBalancedParanthesis",
+            "request": "launch",
+            "mainClass": "GenerateBalancedParanthesis",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
             "name": "MarksOfPCM",
             "request": "launch",
             "mainClass": "_1DArray.MarksOfPCM",
