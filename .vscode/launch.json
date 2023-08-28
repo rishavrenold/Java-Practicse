@@ -6,6 +6,146 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CountSubarrayWithSumEqualK",
+            "request": "launch",
+            "mainClass": "HashMapandHeaps.CountSubarrayWithSumEqualK",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "LongestSubArrayWithSumK",
+            "request": "launch",
+            "mainClass": "HashMapandHeaps.LongestSubArrayWithSumK",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "LongestSubStringWithExactlyKDistinctCharacter",
+            "request": "launch",
+            "mainClass": "HashMapandHeaps.LongestSubStringWithExactlyKDistinctCharacter",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "CountSubStringWithoutRepeatingCharacters",
+            "request": "launch",
+            "mainClass": "HashMapandHeaps.CountSubStringWithoutRepeatingCharacters",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "LongestSubstringWithoutRepeatingCharacters",
+            "request": "launch",
+            "mainClass": "HashMapandHeaps.LongestSubstringWithoutRepeatingCharacters",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "SmallestSubStringOfAllUniqueCharacters",
+            "request": "launch",
+            "mainClass": "HashMapandHeaps.SmallestSubStringOfAllUniqueCharacters",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "CountSubArrayWithZeroSum",
+            "request": "launch",
+            "mainClass": "HashMapandHeaps.CountSubArrayWithZeroSum",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "MinimumWindowSubsttring",
+            "request": "launch",
+            "mainClass": "HashMapandHeaps.MinimumWindowSubsttring",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "NumberOfSubArrayWithZeroSum",
+            "request": "launch",
+            "mainClass": "HashMapandHeaps.NumberOfSubArrayWithZeroSum",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "SubArrayWithZeroSum",
+            "request": "launch",
+            "mainClass": "HashMapandHeaps.SubArrayWithZeroSum",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "DistinctElementAvailableInKWindow",
+            "request": "launch",
+            "mainClass": "HashMapandHeaps.DistinctElementAvailableInKWindow",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "CheckIfArrayPairSumDividedByK",
+            "request": "launch",
+            "mainClass": "HashMapandHeaps.CheckIfArrayPairSumDividedByK",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "PrintAllCommon",
+            "request": "launch",
+            "mainClass": "HashMapandHeaps.PrintAllCommon",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "ReconstructItenary",
+            "request": "launch",
+            "mainClass": "HashMapandHeaps.ReconstructItenary",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "FindNumberOfEmployee",
+            "request": "launch",
+            "mainClass": "HashMapandHeaps.FindNumberOfEmployee",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "GroupAnagrams",
+            "request": "launch",
+            "mainClass": "StringPrac.GroupAnagrams",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "ValidAnagrm",
+            "request": "launch",
+            "mainClass": "_1DArray.ValidAnagrm",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "ProductOfArrayExceptSelf",
+            "request": "launch",
+            "mainClass": "_1DArray.ProductOfArrayExceptSelf",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListCreation",
+            "request": "launch",
+            "mainClass": "LinkedList.LinkedListCreation",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "ContainerWithMaxWater",
+            "request": "launch",
+            "mainClass": "_1DArray.ContainerWithMaxWater",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
             "name": "GeneratePassword",
             "request": "launch",
             "mainClass": "GeneratePassword",
