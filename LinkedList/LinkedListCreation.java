@@ -1,5 +1,6 @@
 package LinkedList;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class LinkedListCreation {
@@ -94,6 +95,46 @@ public class LinkedListCreation {
         head=prev;
     }
 
+    public Node reverserecur(Node head)
+    {
+        if(head==null || head.next==null)
+        {
+            return head;
+        }
+
+        Node chotahead=reverserecur(head.next);
+
+        System.out.println("Head abhi "+head.data);
+        System.out.println("Head ka next "+head.next.data);
+        head.next.next=head;
+        head.next=null;
+        return chotahead;
+    }
+
+    public Node reversekgroup(Node head , int k)
+    {
+        if(head==null)
+        {
+            return null;
+        }
+        Node prev=null;
+        Node curr=head;
+        Node next;
+        int count=k;
+        while(curr!=null && count>0)
+        {
+            next=curr.next;
+            curr.next=prev;
+            prev=curr;
+            curr=next;
+            count--;
+        }
+
+        head.next=reversekgroup(curr, k);
+        
+        return prev;
+    }
+
     public static Node findmid()
     {
         Node slow=head;
@@ -115,6 +156,35 @@ public class LinkedListCreation {
         }
     }
 
+    public void printrec(Node head)
+    {
+        if(head.next==null)
+        {
+            System.out.print(head.data);
+            return;
+        }
+
+        System.out.print(head.data+"->");
+        printrec(head.next);
+    }
+
+    public void printKthnodefromendrec(Node head,ArrayList<Integer> al)
+    {
+        if(head==null)
+        {
+            return;
+        }
+        printKthnodefromendrec(head.next,al);
+        int k=al.get(0);
+        k--;
+        if(k==0)
+        {
+            System.out.println("K-th Node from the end is "+head.data);
+        }
+        al.set(0,k);
+        
+    }
+
     public static void main(String[] args) {
         LinkedListCreation ll= new LinkedListCreation();
         Scanner sc= new Scanner(System.in);
@@ -123,14 +193,21 @@ public class LinkedListCreation {
             int n= sc.nextInt();
             ll.addLast(n);
         }
+         ll.printrec(head);
+         System.out.println();
+        //  ll.printrec(ll.reverserecur(head));
+        ll.display(ll.reversekgroup(head,2));
+        // ArrayList<Integer> al=new ArrayList<>();
+        // al.add(3);
+        // ll.printKthnodefromendrec(head,al);
         // ll.addInMiddle(99, 2);
-        System.out.println("Size is "+ size);
-        ll.display(head);
+        // System.out.println("Size is "+ size);
+        // ll.display(head);
         // System.out.println("Former Head =" +ll.removeFirst());
         // ll.reverse();
-        System.out.println();
+        // System.out.println();
         // System.out.println("Size is "+ size);
-        System.out.println("Middle = "+ findmid().data);
+        // System.out.println("Middle = "+ findmid().data);
         // ll.display(head);
     }
 }
