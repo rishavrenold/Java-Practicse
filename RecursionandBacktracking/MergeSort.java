@@ -1,6 +1,7 @@
 public class MergeSort {
 public static void merge(int arr[],int start,int end)
 {
+    System.out.println("Inside merge "+start+" "+end);
         int mid=(start+end)/2;
         int left[]=new int[(mid-start)+1];
         int right[]=new int[end-mid];
@@ -45,9 +46,14 @@ public static void mergesort(int arr[],int start,int end)
 {
     if(start>=end)
     {
+        System.out.println(" Invalid start ="+start);
+    System.out.println(" Invalid end ="+end);
         return;
     }
     int mid=(start+end)/2;
+    System.out.println("start ="+start);
+    System.out.println("end ="+end);
+    System.err.println("mid ="+mid) ;
     mergesort(arr, start, mid);
     mergesort(arr, mid+1, end);
     merge(arr,start,end);

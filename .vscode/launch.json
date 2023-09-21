@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HeapSort",
+            "request": "launch",
+            "mainClass": "HeapSort",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "MergeSort",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
             "name": "ReorganizeStrings",
             "request": "launch",
             "mainClass": "HashMapandHeaps.ReorganizeStrings",
