@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReconstructItenary",
+            "request": "launch",
+            "mainClass": "HashMapandHeaps.ReconstructItenary",
+            "projectName": "Java-Practicse_4c9c4021"
+        },
+        {
+            "type": "java",
+            "name": "CheckEvenOrOdd",
+            "request": "launch",
+            "mainClass": "BitManipulation.CheckEvenOrOdd",
+            "projectName": "Java-Practicse_4c9c4021"
+        },
+        {
+            "type": "java",
             "name": "MaximumWithinARange",
             "request": "launch",
             "mainClass": "_1DArray.MaximumWithinARange",
