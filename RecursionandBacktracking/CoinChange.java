@@ -43,9 +43,32 @@ public class CoinChange {
         }
     }
 
+    public static int coinChangedp(int coins[],int sum)
+    {
+        int dp[]= new int[sum+1];
+      	dp[0]=0;
+      	for(int target=1;target<=sum;target++)
+        {
+          int mini=Integer.MAX_VALUE;
+          for(int i=0;i<coins.length;i++)
+          {
+            if(target-coins[i]>=0)
+            {
+              int ans=dp[target-coins[i]];
+              if(ans!=Integer.MAX_VALUE)
+              {
+                mini=Math.min(mini,1+ans);
+              }          
+            }
+          }
+           dp[target]=mini;
+        }
+      return dp[sum]==Integer.MAX_VALUE?-1:dp[sum];
+    }
+
     public static void main(String[] args) {
-        int coins[]={186,419,83,408};
-        int amount=6249;
-        System.out.println(coinChange(coins,amount));
+        int coins[]={1,2,5};
+        int amount=7;
+        System.out.println(coinChangedp(coins,amount));
     }
 }

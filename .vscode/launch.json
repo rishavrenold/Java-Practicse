@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaximumWithinARange",
+            "request": "launch",
+            "mainClass": "_1DArray.MaximumWithinARange",
+            "projectName": "Java Practicse_34b60835"
+        },
+        {
+            "type": "java",
+            "name": "CoinChange",
+            "request": "launch",
+            "mainClass": "CoinChange",
+            "projectName": "Java Practicse_34b60835"
+        },
+        {
+            "type": "java",
+            "name": "ProductWithoutItself",
+            "request": "launch",
+            "mainClass": "_1DArray.ProductWithoutItself",
+            "projectName": "Java Practicse_34b60835"
+        },
+        {
+            "type": "java",
+            "name": "CreationOfTrie",
+            "request": "launch",
+            "mainClass": "Trie.CreationOfTrie",
+            "projectName": "Java Practicse_ac0670c0"
+        },
+        {
+            "type": "java",
             "name": "HeapSort",
             "request": "launch",
             "mainClass": "HeapSort",
