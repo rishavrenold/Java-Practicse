@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Practice",
+            "request": "launch",
+            "mainClass": "Basics.Practice",
+            "projectName": "Java-Practicse_dc28e6b3"
+        },
+        {
+            "type": "java",
+            "name": "AlyonaAndNumbers",
+            "request": "launch",
+            "mainClass": "Maths.AlyonaAndNumbers",
+            "projectName": "Java-Practicse_dc28e6b3"
+        },
+        {
+            "type": "java",
+            "name": "MissingNumber",
+            "request": "launch",
+            "mainClass": "Maths.MissingNumber",
+            "projectName": "Java-Practicse_dc28e6b3"
+        },
+        {
+            "type": "java",
+            "name": "PrintDigits",
+            "request": "launch",
+            "mainClass": "PrintDigits",
+            "projectName": "Java-Practicse_dc28e6b3"
+        },
+        {
+            "type": "java",
+            "name": "Creation",
+            "request": "launch",
+            "mainClass": "GenericTree.Creation",
+            "projectName": "Java-Practicse_dc28e6b3"
+        },
+        {
+            "type": "java",
+            "name": "PainterPartition",
+            "request": "launch",
+            "mainClass": "BinarySearch.PainterPartition",
+            "projectName": "Java-Practicse_dc28e6b3"
+        },
+        {
+            "type": "java",
+            "name": "UpperBound",
+            "request": "launch",
+            "mainClass": "BinarySearch.UpperBound",
+            "projectName": "Java-Practicse_dc28e6b3"
+        },
+        {
+            "type": "java",
+            "name": "LowerBound",
+            "request": "launch",
+            "mainClass": "BinarySearch.LowerBound",
+            "projectName": "Java-Practicse_dc28e6b3"
+        },
+        {
+            "type": "java",
             "name": "ReconstructItenary",
             "request": "launch",
             "mainClass": "HashMapandHeaps.ReconstructItenary",
