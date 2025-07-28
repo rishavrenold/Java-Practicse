@@ -34,6 +34,7 @@ public class LinkedListCreation {
         n1.next=head;
         head=n1;
     }
+    // 1->2-> 4-> 6 
     public void addLast(int data)
     {
         Node n1= new Node(data);
@@ -188,15 +189,15 @@ public class LinkedListCreation {
     public static void main(String[] args) {
         LinkedListCreation ll= new LinkedListCreation();
         Scanner sc= new Scanner(System.in);
-        while(sc.hasNextInt())
-        {
-            int n= sc.nextInt();
-            ll.addLast(n);
-        }
+        // while(sc.hasNextInt())
+        // {
+        //     int n= sc.nextInt();
+        //     ll.addLast(n);
+        // }
          ll.printrec(head);
          System.out.println();
         //  ll.printrec(ll.reverserecur(head));
-        ll.display(ll.reversekgroup(head,2));
+        // ll.display(ll.reversekgroup(head,2));
         // ArrayList<Integer> al=new ArrayList<>();
         // al.add(3);
         // ll.printKthnodefromendrec(head,al);
